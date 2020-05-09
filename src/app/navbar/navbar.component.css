@@ -1,0 +1,19 @@
+.menu {
+    margin: auto 0;
+}
+a {
+    color: #dae0e573!important;
+    margin: 0 10px;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    color: white!important;
+}
+button {
+    background-color: inherit;
+    border: none;
+}
+.marked_page {
+    color:white!important;
+}

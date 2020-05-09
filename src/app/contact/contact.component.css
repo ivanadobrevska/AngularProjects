@@ -1,0 +1,38 @@
+strong{
+	font-size: 1.5rem;
+}
+input, textarea {
+	border: 1px solid black;
+	padding: 10px;
+}
+textarea {
+	width: 100%;
+}
+.contactmain{
+	margin-top: 2vh;
+}
+.contactmain input{
+	width: 100%;
+	margin-top: 1vh;
+}
+.contactmain button{
+	width: 100%;
+	border: 1px solid red;
+	color: red;
+	background-color: white;
+	margin-top: 1vh;
+	margin-bottom: 2vh;
+}
+.staff{
+	background-color: #151313e8;
+	color: white;
+}
+.staff h3{
+	padding-bottom: 2vh;
+	border-bottom: 1px solid #0000005c;
+	margin-bottom: 3vh;
+}
+.btnsubmit:hover{
+	background-color: red;
+	color: white;
+}

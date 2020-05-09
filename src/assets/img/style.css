@@ -1,0 +1,290 @@
+*{
+	margin: 0;
+	font-family: 'Lora', serif;
+}
+.navbar-inverse{
+	background-color: #403f3f;
+	border:none;
+	margin-bottom: 0;
+	border-radius: 0;
+}
+.navbar-inverse a{
+	font-size: 1.4rem;
+	margin: 0.7vh 0;
+}
+.navbar-header{
+	color: grey;
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+ .navbar-inverse .navbar-nav>.active>a:hover{
+     background-color:#403f3f;
+     color: white;
+ }
+.navbar-inverse .navbar-nav>.activelink>a{
+	color: white;
+	border-left: 1px solid white;
+}
+.carousel-caption{
+bottom: 20vh;
+}
+.carousel-indicators li,
+.carousel-indicators>.active{
+	width: 3%;
+	height: 0.5vh;
+	border-radius: 0;
+}
+.imageslide1{
+	background-image: url("image1.jpg");
+	background-size: cover;
+	padding: 25vh 0;
+}
+.imageslide2{
+	background-image: url("image2.jpg");
+	background-size: cover;
+	padding: 25vh 0;
+}
+.imageslide3{
+	background-image: url("image3.jpg");
+	background-size: cover;
+	padding: 25vh 0;
+}
+
+.main{
+	padding: 3vh 0;
+}
+.main span{
+	font-size: 3rem;
+}
+.fixedBackground{
+	background-image: url("lights.jpg");
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 10vh 0;
+	color: white;
+}
+.buttonLearn{
+	border:1px solid red;
+	background-color: white;
+	color: red;
+}
+.loremIpsum {
+	padding-top: 5vh;
+}
+.darkBackground{
+	background-color: rgba(0,0,0,0.7);
+	padding-top: 10vh;
+	color: white;
+	padding: 10vh 0;
+}
+.fixedBackground1{
+	background-image: url("media.jpg");
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	margin-bottom: 2vh;
+}
+.darkBackground span{
+	font-size: 3rem;
+}
+.pictures{
+	margin-top: 2vh;
+}
+.signUp{
+	margin-top: 2vh;
+	background-color: #151313e8;
+	color: white;
+	padding-top: 1vh;
+	padding-bottom: 2vh;
+}
+.homefooter{
+	background-color: black;
+	color: white;
+	padding-top: 2vh;
+	padding-bottom: 1vh;
+}
+
+/*CSS za about us*/
+
+
+.aboutUs{
+	background-image: url("image1.jpg");
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	padding: 25vh 0;
+}
+.circleImage{
+	margin-bottom: 3vh;
+}
+.circleImage img{
+	margin-top: -10vh;
+}
+.redDiv{
+	background-color: red;
+	color: white;
+	padding: 2vh 3%;
+	border-radius: 0.5vh;
+	margin-bottom: 3vh;
+}
+i{
+	font-size: 3.5rem;
+}
+.fixedheader{
+	padding-top: 1vh;
+	background-color: #151313e8;;
+	color: white;
+}
+.carousItem{
+	padding: 5vh 0;
+}
+ .carousCap{
+ 	padding: 1vh 0;
+ 	bottom:0vh;
+ }
+.carousControl.right,
+.carousControl.left{
+	padding-top: 7vh;
+}
+
+blockquote{
+	border:none;
+	padding: 10px 0;
+}
+.footerAbout{
+	background-color: black;
+	color: white;
+	padding-top: 2vh;
+	padding-bottom: 1vh;
+}
+
+/*CSS za SERVICES*/
+
+.panel{
+	margin-top: 3vh;
+}
+
+.panel1 button{
+	width: 100%;
+}
+.divCollapse{
+	background-color: #151313e8;
+}
+.divCollapse h2{
+	color: white;
+}
+.panel-group .panel2{
+	background-color: #0000008c;
+	color: white;
+}
+.panel-group .panel-heading+.panel-collapse>.list-group, 
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+    border:none;
+}
+.panel a{
+	text-decoration: none;
+}
+
+/*CSS za Read Our Blog*/
+
+.blockquoteBlog footer:before{
+	content: none;
+}
+.rowpanel{
+	margin-top: 2vh;
+}
+.panelred{
+	color: white;
+	background-color: red;
+}
+.panelblue{
+	background-color: blue;
+	color: white;
+}
+.panelred blockquote footer, .panelblue blockquote footer{
+	color: white;
+}
+
+/*CSS za Contact*/
+
+strong{
+	font-size: 1.5rem;
+}
+.contactmain{
+	margin-top: 2vh;
+}
+.contactmain input{
+	width: 100%;
+	margin-bottom: 1vh;
+}
+.contactmain button{
+	width: 100%;
+	border: 1px solid red;
+	color: red;
+	background-color: white;
+	margin-top: 1vh;
+	margin-bottom: 2vh;
+}
+.staff{
+	background-color: #151313e8;
+	color: white;
+}
+.staff h3{
+	padding-bottom: 2vh;
+	border-bottom: 1px solid #0000005c;
+	margin-bottom: 3vh;
+}
+.btnsubmit:hover{
+	background-color: red;
+	color: white;
+}
+
+@media only screen and (max-width: 768px){
+	.imageslide1, .imageslide2, .imageslide3{
+		padding:17vh 0; 
+	}
+	.carousel-caption{
+		bottom: 10vh;
+	}
+	.loremIpsum {
+    padding: 2vh 0;
+	}
+	.aboutUs{
+		padding: 15vh 4%;
+	}
+	.carousCap{
+		bottom: 0;
+	}
+	.carousItem{
+	padding: 8vh 0;
+	}
+	.carousControl.right,
+	.carousControl.left{
+	padding-top: 10vh;
+}
+
+}
+@media only screen and (max-width: 425px){
+	.carousItem{
+		padding: 7vh 0;
+	}
+	.carousItem p{
+		font-size: 1rem;
+	}
+	.carousControl.right,
+	.carousControl.left{
+	padding-top: 10vh;
+}
+	.signUp{
+		padding: 2vh 3%;
+	}
+	.fixedBackground, .darkBackground{
+		padding: 5vh 0;
+	}
+	.modalimg{
+		margin-bottom: 2vh;
+	}
+
+}

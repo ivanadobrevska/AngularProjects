@@ -1,0 +1,22 @@
+.blockquoteBlog footer:before{
+	content: none;
+}
+.rowpanel{
+	margin-top: 2vh;
+}
+.panel-default {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+.panelred{
+	color: white;
+	background-color: red;
+}
+.panelblue{
+	background-color: blue;
+	color: white;
+}
+.panelred blockquote footer, .panelblue blockquote footer{
+	color: white;
+}

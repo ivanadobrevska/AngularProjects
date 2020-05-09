@@ -1,0 +1,69 @@
+@import "~bootstrap.min.css";
+h3 {
+    font-size: 1.6rem;
+}
+.dark-bg {
+    background-color: #060606bf;
+    color: #dae0e573;
+    padding: 5px;
+}
+.grey-bg {
+    background-color: #dae0e573;
+}
+.black-bg {
+    background-color: black;
+    padding: 10px;
+}
+.headline {
+    background-image: url("assets/img/image1.jpg");
+	width: 100%;
+	background-size: cover;
+	color: white;
+	padding: 25vh 0;
+}
+.rounded-img {
+    margin-top:-80px;
+}
+@media(max-width:786px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    h6 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .rounded-img {
+		display:none;
+    }
+    .headline {
+        padding: 20vh 0;
+    }
+}
+@media (max-width: 425px) {
+    h1 {
+        font-size: 28px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    h6 {
+        font-size: 10px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .headline {
+        padding: 15vh 0;
+    }
+}

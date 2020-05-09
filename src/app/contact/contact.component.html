@@ -1,0 +1,123 @@
+<div class="headline text-center">
+    <h2>Contact us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.</p>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-3 contactmain">
+            <div>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <address>
+                            <h4>Get in Touch</h4><br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit<br>
+
+                        </address>
+                        <address>
+                            <h4>Address</h4><br>
+                            <p>550 Main st Boston MA</p>
+                        </address>
+                        <address>
+                            <h4>E-mail</h4><br>
+                            <p>test@test.com</p>
+                        </address>
+                        <address>
+                            <h4>Phone</h4><br>
+                            <p>(55)555-5555</p>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9 col-sm-9 contactmain">
+            <div>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h3>Please fill out this form to contact us</h3>
+                        <hr>
+                        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <div>
+                                        <input type="text" formControlName="firstName"
+                                            placeholder="First Name" required> </div>
+                                            <small class="text-danger" *ngIf="contactForm.controls['firstName'].hasError('required') && contactForm.get('firstName').touched">First Name is required.</small>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div>
+                                        <input type="text" formControlName="lastName"
+                                            placeholder="Last Name" required>
+                                        <small class="text-danger" *ngIf="contactForm.controls['lastName'].hasError('required') && contactForm.get('lastName').touched">Last Name is required.</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <div>
+                                        <input type="email" formControlName="email"
+                                            placeholder="E-mail" required>
+                                        <small class="text-danger" *ngIf="contactForm.controls['email'].hasError('required') && contactForm.get('email').touched">Email is required.</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div>
+                                        <input type="text" formControlName="phoneNumber"
+                                            placeholder="Phone Number">
+                                        <small class="text-danger" *ngIf="contactForm.controls['phoneNumber'].hasError('required') && contactForm.get('phoneNumber').touched">Phone Number is required.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btnsubmit" [disabled]="!contactForm.valid">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="staff">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Our Staff</h3>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-3 text-center">
+                <div>
+                    <img src="../../assets/img/person1.jpg" class="img-fluid mx-auto">
+                    <h4>Jane Doe</h4>
+                    <p>Marketing Manager</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 text-center">
+                <div>
+                    <img src="../../assets/img/person2.jpg" class="img-fluid mx-auto">
+                    <h4>Sarah Williams</h4>
+                    <p>Buisness Manager</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 text-center">
+                <div>
+                    <img src="../../assets/img/person3.jpg" class="img-fluid mx-auto">
+                    <h4>John Doe</h4>
+                    <p>CEO</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 text-center">
+                <div>
+                    <img src="../../assets/img/person4.jpg" class="img-fluid mx-auto">
+                    <h4>Steve Smith</h4>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
